@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Sports keeda - A Heaven for Sports enthusiast </title>
+  </head>
+  <body>
+      <!-- navigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Sports Keeda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search here.." aria-label="Search">
+              <button class="btn btn-outline-success mx-1" type="submit">Search</button>
+            </form>
+            <div mx-2>
+              <button class="btn btn-outline-info mx-1" data-bs-toggle="modal" data-bs-target="#loginModal" type="submit">login</button>
+              <button class="btn btn-outline-info mx-1" data-bs-toggle="modal" data-bs-target="#signupModal" type="submit">Signup</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- login modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login to Sports Keeda</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form  -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Stay Logged in</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!-- form end  -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- singup modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Signup to Sports Keeda</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Stay Logged in</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- carousel  -->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/le2jhtu5xp0/1500x400" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Explore the World of Football</h5>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Football</button>
+              <button type="button" class="btn btn-outline-light">Explore</button>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Buy now</button>
+              <p>The World of Football is Full of adventurousness</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/kXJksx1kdJ0/1500x400" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Explore the World of Basketball</h5>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Basketball</button>
+              <button type="button" class="btn btn-outline-light">Explore</button>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Buy now</button>
+              <p>Get the Insites of Basketball</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Explore the World of Golf</h5>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Golf</button>
+              <button type="button" class="btn btn-outline-light">Explore</button>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="button" autocomplete="off">Buy now</button>
+              <p>Be a Golfer with good dignity</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- block  -->
+<!-- <div class="split-module is-light-theme row my-4 mx-5>
+  <div class="image col-12 col-lg-6 order-1 order-lg-2">
+    <img src="https://source.unsplash.com/1500x800/?sports" alt=""></div>
+  <div class="split-container col-12 col-lg-5 order-2 order-lg-1">
+  <div class="split-content d-flex align-items-center justify-content-center">
+  <div><label class="split-content-subheading">FOR HIM</label>
+  <h2 class="split-content-heading">Vintage Inspired. Timeless. Versatile.</h2>
+  <p class="split-content-text">Inspired by a storied heritage, fit for today, Lee has been crafting premium quality denims (and much more) that are made to last. Available in an array of timeless hues and fits that range from classic to trendy, Lee stands for versatility and enduring style. Since 1889</p>
+  <div class="split-content-buttons text-left"><a class="btn btn-primary" href="https://www.lee.in/men/jeans.html/ ">SHOP</a></div>
+  </div>
+  </div>
+  </div>
+  </div> -->
+  <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 my-5">Meet the Players</h2>
+  <!-- meet the team  -->
+  <div class="row my-5 mx-5">
+    <div class="col-lg-4">
+      <img src="https://source.unsplash.com/rdgGNjj69zI/200x240" class="rounded mx-2 d-block img-fluid" alt="..."> 
+      <h2>Ronaldo</h2>
+      <p>Former Manchester United and Real Madrid Player. Currently playing for Juventus. </p>
+      <p><a class="btn btn-secondary" href="https://www.cristianoronaldo.com/#cr7">View Details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://source.unsplash.com/M5YKACTmdpo/200x240" class="rounded mx-2 d-block img-fluid" alt="...">
+
+      <h2>Stephen Curry</h2>
+      <p>One of the most Smartest and Agile Player currently playing for Golden State Warriors.</p>
+      <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Stephen_Curry">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://source.unsplash.com/JWmfUpVm8mg/200x240" class="rounded mx-2 d-block img-fluid" alt="...">
+
+      <h2>Roger Federer</h2>
+      <p> Swiss professional tennis player. He is ranked No. 9 in the world by the Association of Tennis Professionals.</p>
+      <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Roger_Federer">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div>
+
+  <!-- footer  -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© 2021 Sports Keeda Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
